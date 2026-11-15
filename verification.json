@@ -10,12 +10,14 @@
         874,
         1440
       ],
+      "responsivePhaseRetained": false,
       "microQuizAnswers": 54,
       "finalRounds": 2,
       "missions": 8,
       "aclCombinations": 16,
       "offlineReload": true,
       "offlineManual": true,
+      "offlineMethod": "Playwright network offline emulation",
       "fileMode": true,
       "pageErrors": []
     },
@@ -28,7 +30,7 @@
         874,
         1440
       ],
-      "responsivePhaseRetained": true,
+      "responsivePhaseRetained": false,
       "microQuizAnswers": 54,
       "finalRounds": 2,
       "missions": 8,
@@ -41,13 +43,7 @@
     }
   ],
   "errors": [],
-  "toolLimitations": [
-    {
-      "action": "Playwright WebKit context.setOffline(true) followed by page.reload",
-      "result": "WebKit encountered an internal error during Playwright offline emulation. The stopped-server verification passed in both engines.",
-      "resolution": "Replaced network emulation with a dedicated server that was actually stopped. See offline-verification.json."
-    }
-  ],
+  "toolLimitations": [],
   "notes": [
     "Browser emulation only; no physical iPhone.",
     "No Windows Server VM setup or OS commands executed."
@@ -55,26 +51,24 @@
   "counts": {
     "scenesChecked": 288,
     "beatsChecked": 1152,
-    "layoutsChecked": 1402
+    "layoutsChecked": 1370
   },
   "status": "passed",
-  "contentChecks": {
-    "powershellSnippetsParsedNotExecuted": 19,
-    "officialSourcesAvailable": 28,
-    "pdfPages": 46,
-    "pdfTextExtractable": true
-  },
+  "version": "2026.11.15.2",
   "artifacts": {
-    "index.html": "5d2bc94c6f6964a52403713e4b2880256e5911fa7693f7e45c483257ca67f401",
-    "manual.html": "bee810eacbee21b5d9b757c89f1c648438c9237ecef1589253d759cd740548b7",
-    "WINDOWS_SERVER_RU.md": "574d38823b0723bdc95d5a8c845ba09ffbe7e9e66961d27df4875af48bba7759",
-    "WINDOWS_SERVER_RU.pdf": "349ea5ee07f187af1c21b17a2784c202a27e06a60e0df3fd2841b4e7257ac845",
-    "sw.js": "7de06cfb14005cf8a20960cdcb2f7ac2c08e65197b9e61e2a783a82650281b62"
+    "index.html": "6e8bc7f7b028f7993d9be88909e236b562a38445ae54d5797f8cec2b3a54060b",
+    "manual.html": "0d29d54785a2490e208225563302a071ec3653981fabf0c05de2b96665866254",
+    "WINDOWS_SERVER_RU.md": "42e7ac7537f2ccc01be7f83f8f50ed7bfc9762092694e2757f0351e87fa1f72f",
+    "WINDOWS_SERVER_RU.pdf": "3ed530a715357184cb79269a87f2a3750254bf3fff5551b059876c990aa8fa35",
+    "sw.js": "5d63c648b2997d077a9e828871b169e5d28c8a1a08f418746387541e87efa8d3"
   },
+  "additionalReports": [
+    "beginner-verification.json",
+    "powershell-verification.json"
+  ],
   "published": {
     "url": "https://sillkiin.github.io/windows-server-from-zero/",
-    "checked": "2026-11-15",
-    "status": "passed",
+    "status": "pending",
     "report": "published-verification.json"
   }
 }

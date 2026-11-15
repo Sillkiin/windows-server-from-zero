@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-15",
+  "status": "passed",
+  "engines": [
+    {
+      "engine": "chromium",
+      "status": "passed",
+      "previousVersion": "2026.11.15",
+      "newVersion": "2026.11.15.2",
+      "progressPreservedAfterUpgrade": true,
+      "updateButtonPreservesProgress": true,
+      "oldCachesRemoved": true,
+      "lessonCards": 18,
+      "expandedGuideLayouts": 54,
+      "expandedOptionalSectionsChecked": 12,
+      "glossary": 66,
+      "prerequisiteLink": true,
+      "viewports": [
+        320,
+        402,
+        874
+      ],
+      "pageErrors": []
+    },
+    {
+      "engine": "webkit",
+      "status": "passed",
+      "previousVersion": "2026.11.15",
+      "newVersion": "2026.11.15.2",
+      "progressPreservedAfterUpgrade": true,
+      "updateButtonPreservesProgress": true,
+      "oldCachesRemoved": true,
+      "lessonCards": 18,
+      "expandedGuideLayouts": 54,
+      "expandedOptionalSectionsChecked": 12,
+      "glossary": 66,
+      "prerequisiteLink": true,
+      "viewports": [
+        320,
+        402,
+        874
+      ],
+      "pageErrors": []
+    }
+  ],
+  "limits": [
+    "Browser emulation; no physical iPhone or beginner participant.",
+    "No Windows Server commands executed."
+  ]
+}
