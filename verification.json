@@ -65,10 +65,16 @@
     "pdfTextExtractable": true
   },
   "artifacts": {
-    "index.html": "7ec8153562d83596c37241931a4baefc5232fe85c54e4ce507e6e4631cbb23b1",
-    "manual.html": "76edae75e8d8c3b5e5eaaa88d32f07e93a53860c0b9f40742ab273351d35331f",
-    "WINDOWS_SERVER_RU.md": "50b5efbd8124233a9fc0731e310264d04375249f45393e6b287bcbb5197c6360",
+    "index.html": "5d2bc94c6f6964a52403713e4b2880256e5911fa7693f7e45c483257ca67f401",
+    "manual.html": "bee810eacbee21b5d9b757c89f1c648438c9237ecef1589253d759cd740548b7",
+    "WINDOWS_SERVER_RU.md": "574d38823b0723bdc95d5a8c845ba09ffbe7e9e66961d27df4875af48bba7759",
     "WINDOWS_SERVER_RU.pdf": "349ea5ee07f187af1c21b17a2784c202a27e06a60e0df3fd2841b4e7257ac845",
-    "sw.js": "596bd560e5e2ce54eaf6758ecaf27d1b40eb211bca50521e2e90825772dd1c2a"
+    "sw.js": "7de06cfb14005cf8a20960cdcb2f7ac2c08e65197b9e61e2a783a82650281b62"
+  },
+  "published": {
+    "url": "https://sillkiin.github.io/windows-server-from-zero/",
+    "checked": "2026-11-15",
+    "status": "passed",
+    "report": "published-verification.json"
   }
 }
