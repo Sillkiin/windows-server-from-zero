@@ -2,6 +2,10 @@
   "date": "2026-11-15",
   "url": "https://sillkiin.github.io/windows-server-from-zero/",
   "version": "2026.11.15.2",
-  "deployment": "pending",
-  "previousCommit": "eb994bc77d9ee7c3ec493ce9a148086ed2f254bc"
+  "contentCommit": "471a9b55debe04428c7d08ca48f297596d837811",
+  "deployment": "success",
+  "run": "https://github.com/Sillkiin/windows-server-from-zero/actions/runs/43699387703",
+  "publicVerification": "published-verification.json",
+  "coreArtifactsMatchLocal": true,
+  "note": "Content deployment checked successfully; a following documentation commit records these results without changing course HTML or PDF."
 }

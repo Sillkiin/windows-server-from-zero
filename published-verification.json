@@ -1,6 +1,74 @@
 {
   "date": "2026-11-15",
+  "url": "https://sillkiin.github.io/windows-server-from-zero/",
+  "repository": "https://github.com/Sillkiin/windows-server-from-zero",
+  "artifacts": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "sha256": "6e8bc7f7b028f7993d9be88909e236b562a38445ae54d5797f8cec2b3a54060b",
+      "matchesLocal": true
+    },
+    {
+      "file": "manual.html",
+      "status": 200,
+      "sha256": "0d29d54785a2490e208225563302a071ec3653981fabf0c05de2b96665866254",
+      "matchesLocal": true
+    },
+    {
+      "file": "sw.js",
+      "status": 200,
+      "sha256": "5d63c648b2997d077a9e828871b169e5d28c8a1a08f418746387541e87efa8d3",
+      "matchesLocal": true
+    },
+    {
+      "file": "manifest.webmanifest",
+      "status": 200,
+      "sha256": "c89ab07d6515f40d888ec10a16cd2f927d84956f609bad8e898286894ce269bd",
+      "matchesLocal": true
+    },
+    {
+      "file": "WINDOWS_SERVER_RU.pdf",
+      "status": 200,
+      "sha256": "3ed530a715357184cb79269a87f2a3750254bf3fff5551b059876c990aa8fa35",
+      "matchesLocal": true
+    }
+  ],
+  "engines": [
+    {
+      "engine": "chromium",
+      "status": "passed",
+      "viewports": [
+        320,
+        402,
+        874
+      ],
+      "touch": true,
+      "scenes": 108,
+      "missions": 8,
+      "finalQuiz": 15,
+      "cacheControlled": true,
+      "offline": "public site reload and manual passed with network offline",
+      "pageErrors": []
+    },
+    {
+      "engine": "webkit",
+      "status": "passed",
+      "viewports": [
+        320,
+        402,
+        874
+      ],
+      "touch": true,
+      "scenes": 108,
+      "missions": 8,
+      "finalQuiz": 15,
+      "cacheControlled": true,
+      "offline": "cache populated; stopped-server WebKit test covered locally",
+      "pageErrors": []
+    }
+  ],
+  "status": "passed",
   "version": "2026.11.15.2",
-  "status": "pending",
-  "reason": "Updated release is locally checked; live verification will follow deployment."
+  "contentCommit": "471a9b55debe04428c7d08ca48f297596d837811"
 }
