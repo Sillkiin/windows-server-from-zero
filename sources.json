@@ -1,0 +1,254 @@
+[
+  {
+    "id": "overview",
+    "name": "Обзор Windows Server",
+    "url": "https://learn.microsoft.com/en-us/windows-server/get-started/overview",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/get-started/overview",
+    "title": "What is Windows Server? | Microsoft Learn"
+  },
+  {
+    "id": "editions",
+    "name": "Редакции Standard и Datacenter",
+    "url": "https://learn.microsoft.com/en-us/windows-server/get-started/editions-comparison",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/get-started/editions-comparison",
+    "title": "Comparison of Windows Server editions | Microsoft Learn"
+  },
+  {
+    "id": "core",
+    "name": "Server Core и Desktop Experience",
+    "url": "https://learn.microsoft.com/en-us/windows-server/get-started/install-options-server-core-desktop-experience",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/get-started/install-options-server-core-desktop-experience",
+    "title": "Server Core vs Server with Desktop Experience install options | Microsoft Learn"
+  },
+  {
+    "id": "install",
+    "name": "Установка Windows Server",
+    "url": "https://learn.microsoft.com/en-us/windows-server/get-started/install-windows-server",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/get-started/install-windows-server",
+    "title": "Install Windows Server from installation media | Microsoft Learn"
+  },
+  {
+    "id": "ad",
+    "name": "Установка AD DS",
+    "url": "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-",
+    "title": "Install Active Directory Domain Services on Windows Server | Microsoft Learn"
+  },
+  {
+    "id": "dns",
+    "name": "Установка и настройка DNS",
+    "url": "https://learn.microsoft.com/en-us/windows-server/networking/dns/quickstart-install-configure-dns-server",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/networking/dns/quickstart-install-configure-dns-server",
+    "title": "Install and Configure DNS Server on Windows Server | Microsoft Learn"
+  },
+  {
+    "id": "dhcp",
+    "name": "Установка и настройка DHCP",
+    "url": "https://learn.microsoft.com/en-us/windows-server/networking/technologies/dhcp/quickstart-install-configure-dhcp-server",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/networking/technologies/dhcp/quickstart-install-configure-dhcp-server",
+    "title": "Install and configure DHCP Server on Windows Server | Microsoft Learn"
+  },
+  {
+    "id": "groups",
+    "name": "Группы безопасности AD",
+    "url": "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups",
+    "title": "Active Directory Security Groups | Microsoft Learn"
+  },
+  {
+    "id": "gpo",
+    "name": "Групповые политики",
+    "url": "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview",
+    "title": "Group Policy overview for Windows Server | Microsoft Learn"
+  },
+  {
+    "id": "smb",
+    "name": "Общий доступ по SMB",
+    "url": "https://learn.microsoft.com/en-us/windows-server/storage/file-server/file-server-smb-overview",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/storage/file-server/file-server-smb-overview",
+    "title": "What is SMB File Sharing for Windows and Windows Server? | Microsoft Learn"
+  },
+  {
+    "id": "acl",
+    "name": "Права NTFS: icacls",
+    "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/icacls",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/icacls",
+    "title": "icacls | Microsoft Learn"
+  },
+  {
+    "id": "hyperv",
+    "name": "Установка Hyper-V",
+    "url": "https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/install-hyper-v",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/install-hyper-v",
+    "title": "Install Hyper-V in Windows and Windows Server | Microsoft Learn"
+  },
+  {
+    "id": "rds",
+    "name": "Службы удалённых рабочих столов",
+    "url": "https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/remote-desktop-services-overview",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/overview",
+    "title": "Remote Desktop Services overview in Windows Server | Microsoft Learn"
+  },
+  {
+    "id": "rdscal",
+    "name": "Лицензии RDS CAL",
+    "url": "https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds-client-access-license",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds-client-access-license",
+    "title": "License Remote Desktop Services with Client Access Licenses (CALs) | Microsoft Learn"
+  },
+  {
+    "id": "backup",
+    "name": "Резервное копирование: wbadmin",
+    "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/wbadmin",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/wbadmin",
+    "title": "wbadmin | Microsoft Learn"
+  },
+  {
+    "id": "forest",
+    "name": "Восстановление леса AD",
+    "url": "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/forest-recovery-guide/ad-forest-recovery-guide",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/forest-recovery-guide/ad-forest-recovery-guide",
+    "title": "Active Directory Forest Recovery Guide | Microsoft Learn"
+  },
+  {
+    "id": "time",
+    "name": "Служба времени Windows",
+    "url": "https://learn.microsoft.com/en-us/windows-server/networking/windows-time-service/windows-time-service-top",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/networking/windows-time-service/windows-time-service-top",
+    "title": "Windows Time Service (W32Time) | Microsoft Learn"
+  },
+  {
+    "id": "firewall",
+    "name": "Брандмауэр Windows",
+    "url": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/",
+    "title": "Windows Firewall Overview | Microsoft Learn"
+  },
+  {
+    "id": "laps",
+    "name": "Windows LAPS",
+    "url": "https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-overview",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/identity/laps/laps-overview",
+    "title": "Windows LAPS Overview: Manage Admin Passwords | Microsoft Learn"
+  },
+  {
+    "id": "evaluation",
+    "name": "Пробная версия Windows Server 2025",
+    "url": "https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2025",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2025",
+    "title": "Windows Server 2025 | Microsoft Evaluation Center"
+  },
+  {
+    "id": "life2025",
+    "name": "Жизненный цикл Windows Server 2025",
+    "url": "https://learn.microsoft.com/en-us/lifecycle/products/windows-server-2025",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/lifecycle/products/windows-server-2025",
+    "title": "Windows Server 2025 - Microsoft Lifecycle | Microsoft Learn"
+  },
+  {
+    "id": "life2022",
+    "name": "Жизненный цикл Windows Server 2022",
+    "url": "https://learn.microsoft.com/en-us/lifecycle/products/windows-server-2022",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/lifecycle/products/windows-server-2022",
+    "title": "Windows Server 2022 - Microsoft Lifecycle | Microsoft Learn"
+  },
+  {
+    "id": "psad",
+    "name": "PowerShell: New-ADUser",
+    "url": "https://learn.microsoft.com/en-us/powershell/module/activedirectory/new-aduser",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/powershell/module/activedirectory/new-aduser?view=windowsserver2025-ps",
+    "title": "New-ADUser (ActiveDirectory) | Microsoft Learn"
+  },
+  {
+    "id": "psacl",
+    "name": "PowerShell: New-SmbShare",
+    "url": "https://learn.microsoft.com/en-us/powershell/module/smbshare/new-smbshare",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/powershell/module/smbshare/new-smbshare?view=windowsserver2025-ps",
+    "title": "New-SmbShare (SmbShare) | Microsoft Learn"
+  },
+  {
+    "id": "gpres",
+    "name": "Диагностика политик: gpresult",
+    "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/gpresult",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/gpresult",
+    "title": "gpresult | Microsoft Learn"
+  },
+  {
+    "id": "iis",
+    "name": "Установка IIS",
+    "url": "https://learn.microsoft.com/en-us/iis/install/installing-iis-85/installing-iis-85-on-windows-server-2012-r2",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/iis/install/installing-iis-85/installing-iis-85-on-windows-server-2012-r2",
+    "title": "Install IIS 8.5 on Windows Server 2012 R2 | Microsoft Learn"
+  },
+  {
+    "id": "printer",
+    "name": "Добавление принтера и публикации",
+    "url": "https://learn.microsoft.com/en-us/powershell/module/printmanagement/add-printer",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/powershell/module/printmanagement/add-printer?view=windowsserver2025-ps",
+    "title": "Add-Printer (PrintManagement) | Microsoft Learn"
+  },
+  {
+    "id": "features",
+    "name": "Установка серверных ролей через PowerShell",
+    "url": "https://learn.microsoft.com/en-us/powershell/module/servermanager/install-windowsfeature",
+    "checked": "2026-11-15",
+    "status": 200,
+    "final_url": "https://learn.microsoft.com/en-us/powershell/module/servermanager/install-windowsfeature?view=windowsserver2025-ps",
+    "title": "Install-WindowsFeature (ServerManager) | Microsoft Learn"
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-15",
+  "engines": [
+    {
+      "engine": "chromium",
+      "status": "passed",
+      "viewports": [
+        320,
+        402,
+        874,
+        1440
+      ],
+      "microQuizAnswers": 54,
+      "finalRounds": 2,
+      "missions": 8,
+      "aclCombinations": 16,
+      "offlineReload": true,
+      "offlineManual": true,
+      "fileMode": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "webkit",
+      "status": "passed",
+      "viewports": [
+        320,
+        402,
+        874,
+        1440
+      ],
+      "responsivePhaseRetained": true,
+      "microQuizAnswers": 54,
+      "finalRounds": 2,
+      "missions": 8,
+      "aclCombinations": 16,
+      "offlineReload": true,
+      "offlineManual": true,
+      "offlineMethod": "dedicated server actually stopped",
+      "fileMode": true,
+      "pageErrors": []
+    }
+  ],
+  "errors": [],
+  "toolLimitations": [
+    {
+      "action": "Playwright WebKit context.setOffline(true) followed by page.reload",
+      "result": "WebKit encountered an internal error during Playwright offline emulation. The stopped-server verification passed in both engines.",
+      "resolution": "Replaced network emulation with a dedicated server that was actually stopped. See offline-verification.json."
+    }
+  ],
+  "notes": [
+    "Browser emulation only; no physical iPhone.",
+    "No Windows Server VM setup or OS commands executed."
+  ],
+  "counts": {
+    "scenesChecked": 288,
+    "beatsChecked": 1152,
+    "layoutsChecked": 1402
+  },
+  "status": "passed",
+  "contentChecks": {
+    "powershellSnippetsParsedNotExecuted": 19,
+    "officialSourcesAvailable": 28,
+    "pdfPages": 46,
+    "pdfTextExtractable": true
+  },
+  "artifacts": {
+    "index.html": "7ec8153562d83596c37241931a4baefc5232fe85c54e4ce507e6e4631cbb23b1",
+    "manual.html": "76edae75e8d8c3b5e5eaaa88d32f07e93a53860c0b9f40742ab273351d35331f",
+    "WINDOWS_SERVER_RU.md": "50b5efbd8124233a9fc0731e310264d04375249f45393e6b287bcbb5197c6360",
+    "WINDOWS_SERVER_RU.pdf": "349ea5ee07f187af1c21b17a2784c202a27e06a60e0df3fd2841b4e7257ac845",
+    "sw.js": "596bd560e5e2ce54eaf6758ecaf27d1b40eb211bca50521e2e90825772dd1c2a"
+  }
+}

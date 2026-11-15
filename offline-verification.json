@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-15",
+  "method": "Dedicated HTTP server stopped after service-worker cache install. Browser offline emulation not used.",
+  "engines": [
+    {
+      "engine": "chromium",
+      "serverActuallyStopped": true,
+      "onlineControllerConfirmed": true,
+      "offlineReload": true,
+      "offlineManual": true,
+      "localFile": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "webkit",
+      "serverActuallyStopped": true,
+      "onlineControllerConfirmed": true,
+      "offlineReload": true,
+      "offlineManual": true,
+      "localFile": true,
+      "pageErrors": []
+    }
+  ],
+  "status": "passed"
+}
